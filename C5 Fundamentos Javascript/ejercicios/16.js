@@ -6,6 +6,11 @@ function esImpar(num) {
   // 15 ---> true
   // 14 ---> false
   // Tu código:
+
+  return num % 2 != 0;
 }
+
+console.log(esImpar(15));
+console.log(esImpar(14));
 
 module.exports = esImpar;
